@@ -46,7 +46,7 @@ function animateClass(currentColor) {
 
 function start() {
   level = 0;
-  $(document).click(function() {
+  $("h1").click(function() {
     if (!started) {
       nextSequence()
       $("#level-title").text("Level "+level);
@@ -75,7 +75,7 @@ function yesTrue() {
 }
 
 function wrong() {
-  $("#level-title").text("Game Over, Press Any Key to Restart");
+  $("#level-title").text("Game Over, Click Here to Restart");
   playSound("wrong");
   $("body").addClass("game-over");
   setTimeout(function() {
