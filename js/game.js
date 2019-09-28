@@ -46,7 +46,7 @@ function animateClass(currentColor) {
 
 function start() {
   level = 0;
-  $(document).keydown(function() {
+  $(document).click(function() {
     if (!started) {
       nextSequence()
       $("#level-title").text("Level "+level);
