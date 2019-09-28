@@ -1,1 +1,1 @@
-# scaling-telegram
+# simon-game
