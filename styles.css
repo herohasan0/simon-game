@@ -24,8 +24,9 @@ body {
 
 @media (max-width: 768px) {
   .btn {
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
+    margin: 35px;
   }
 }
 
