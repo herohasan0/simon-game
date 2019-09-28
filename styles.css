@@ -10,21 +10,25 @@ body {
   color: #FEF2BF;
 }
 
-.container {
-  display: block;
-  width: 100%;
-  margin: auto;
-
-}
-
-.btn {
-  margin: 25px;
-  display: inline-block;
-  height: 200px;
-  width: 200px;
+.buton {
+  height: 300px;
+  width: 300px;
   border: 10px solid black;
   border-radius: 20%;
+  margin: 25px;
 }
+
+.button-container {
+  margin: 10px auto;
+}
+
+@media (max-width: 768px) {
+  .btn {
+    height: 400px;
+    width: 400px;
+  }
+}
+
 
 .game-over {
   background-color: red;
